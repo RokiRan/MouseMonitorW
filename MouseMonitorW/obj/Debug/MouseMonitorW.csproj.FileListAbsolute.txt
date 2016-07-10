@@ -1,0 +1,9 @@
+E:\vsproject\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.exe.config
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csprojResolveAssemblyReference.cache
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.Properties.Resources.resources
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csproj.GenerateResource.Cache
+E:\vsproject\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.exe
+E:\vsproject\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.pdb
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.exe
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.pdb
+E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.main.resources
