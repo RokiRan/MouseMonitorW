@@ -20,5 +20,9 @@ namespace MouseMonitorW
             keybd_event((byte)VkKeyScan(key), 0, 0, 0);
             keybd_event((byte)VkKeyScan(key), 0, 2, 0);
         }
+        public static void sendEnter() {
+            keybd_event(13, 0, 0, 0);
+            keybd_event(13, 0, 2, 0);
+        }
     }
 }

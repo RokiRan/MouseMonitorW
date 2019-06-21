@@ -7,3 +7,17 @@ E:\vsproject\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.pdb
 E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.exe
 E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.pdb
 E:\vsproject\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.main.resources
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.exe.config
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.exe
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\MouseMonitorW.pdb
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csprojAssemblyReference.cache
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.main.resources
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.Properties.Resources.resources
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csproj.GenerateResource.cache
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csproj.CoreCompileInputs.cache
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.exe
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.pdb
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\SuperSocket.ClientEngine.dll
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\WebSocket4Net.dll
+E:\cSharp\MouseMonitorW\MouseMonitorW\bin\Debug\WebSocket4Net.pdb
+E:\cSharp\MouseMonitorW\MouseMonitorW\obj\Debug\MouseMonitorW.csproj.CopyComplete

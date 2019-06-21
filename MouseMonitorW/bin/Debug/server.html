@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>websocket.IO</title>
+</head>
+<body>
+	<h1 id="status">未登录</h1>
+	<div id="lg">
+		<h3>在这里登陆哟！各位大佬</h3>
+		<input id="name" placeholder="登录名" />
+		<input id="pwd" placeholder="密码"  type="password"/>
+		<button onclick="login()">登陆</button>
+	</div>
+    <div id="odd" style="display:none;">
+		<span>大少补的钱：</span>
+		<input id="money" placeholder="" type="num" value="0" />
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script >
+var isTarget = false;
+var url = window.location.host;
+var apiurl='https://www.maoshu.store'
+var mWsIo = null;
+var userwwktm058 = {
+    username: '',//用户名 填在两个引号之间，切需要英文输入法
+    password: '',//用户密码
+    fresh:true
+};
+
+
+function login(){
+	var u=$('#name').val();
+	var p=$('#pwd').val();
+	$.ajax({
+		type: 'Post',
+		url: apiurl+'/wwktm058/userLogin',
+		data: { username: u, password: p },
+		success: function (res) {
+			if (res.code == true || res.code == 'true') {
+				alert('登陆成功');
+				$('#status').html('已登录');
+				$('#lg').toggle();
+				$('#odd').toggle();
+				userwwktm058.username=u;
+				mWsIo = io(apiurl);
+				mWsIo.on('appChooseItem_7177', function (ddd) {
+					if (ddd.script&&ddd.user==userwwktm058.username) {
+						//eval(ddd.script);
+						var money=ddd.num - $('#money').val();
+						setTimeout(function(){
+							try{
+								window.external.ShowMessage(money)//通过external调用
+							}
+							catch(err)
+							{
+								alert("无法调用C#函数！");
+
+							}
+						},100)
+					}
+				})
+			} else {
+				alert('登陆失败！')
+			}
+		}
+	});
+}
+
+</script> 
+</html>
